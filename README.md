@@ -19,7 +19,7 @@ Make sure you have the following software installed on your machine:
 sudo apt-get install default-jdk
 sudo apt-get install maven
 
-** Getting Started**
+## Getting Started
 Follow these instructions to clone the project and run the tests locally.
 
 Clone the Repository
