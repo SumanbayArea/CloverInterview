@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests">
+    <parameter name="environment" value="qa"/>
+    <parameter name="browser" value="chrome"/>
+    <listeners>
+        <listener class-name="com.clover.listeners.ExtentTestListener"/>
+    </listeners>
+    <test name="Search test">
+        <classes>
+            <class name="com.clover.tests.SearchEngineTest"/>
+        </classes>
+    </test>
+</suite>

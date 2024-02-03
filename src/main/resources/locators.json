@@ -1,0 +1,18 @@
+{
+  "GoogleSearchResultsPage": {
+    "resultsLink": {
+      "LocatorType": "cssSelector",
+      "LocatorValue": "div#search a"
+    }
+  },
+  "GoogleHomePage": {
+    "searchBox": {
+      "LocatorType": "cssSelector",
+      "LocatorValue": "[title='Search']"
+    },
+    "autoSuggestionResults": {
+      "LocatorType": "xpath",
+      "LocatorValue": "//*[@role='option']//span"
+    }
+  }
+}
