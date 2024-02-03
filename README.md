@@ -16,7 +16,6 @@ Make sure you have the following software installed on your machine:
 
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [Maven](https://maven.apache.org/download.cgi)
-- WebDriver (e.g., [ChromeDriver](https://sites.google.com/chromium.org/driver/))
 
 ```bash
 # Example for Java and Maven installation on Ubuntu
